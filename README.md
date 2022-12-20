@@ -110,7 +110,8 @@
 ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
 ---
 ## 2. ER Diagram
-![image](https://lh3.googleusercontent.com/keep-bbsk/AP6BvTRGGq68zUvJDhYU3hXv_XN-zMT-82UU8-3Zt4vBoD7_SuZljECwRAkgeJxDGDNeqqzL-pw4MaIHzQPVfkeG-g55fCDx3kdRG6teCgIRgtPwTD4H=s512)
+![image](https://user-images.githubusercontent.com/81802175/208679679-a09197a7-32f4-47ff-9c2c-57b4129bf041.png)
+
 ---
 <!--
 ## 3. 흐름도 및 메뉴 구성도
