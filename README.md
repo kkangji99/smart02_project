@@ -27,44 +27,65 @@
   - 처음 계획하며 선택했던 html 템플릿과 백엔드 기능이 충돌했던 일이 있다. 3시간 가량 수정 방법을 찾아보다가 템플릿 요소 대부분을 수정해야 진행이 가능해서 팀 회의를 통해 템플릿을 수정했다. 
   - 계획 단계에 구상한 흐름과 구현 단계의 흐름에 차이점이 있어 구현 시간을 계획할 때 이 점을 고려해야 함을 깨달았다.
   - Js에 더 능숙했다면 코드 길이를 줄일 수 있는 부분이 있어 아쉬웠고, 개인이 아닌 팀으로 한 달간 프로젝트를 진행하여 협업 능력과 자기 계발에 도움이 되는 유익한 시간이었다. -->
- <!-- 
+ 
 ## 프로젝트를 진행한 이유
-- 보유한 식재료가 들어가는 레시피를 검색해 낭비 없는 식재료 사용하도록 도움을 줌
-- 보유 식재료를 리스트로 가시화하여 관리에 편의성 제공
-- 요리할 때 컴퓨터보다는 스마트폰 사용자가 많아 Bootstrap을 활용해 동적 웹 어플리케이션을 제작
+- IT 관련 정보만 핵심적으로 파악 가능
+- 사용자 맞춤 자격증 취득 방향성 제시
+- 자격증에 대한 정보를 탐색하는 시간을 줄여 편의성 제공
 ---
 ## 프로젝트 소개
-- 개발 기간 : 2022년 8월 2일 ~ 2022년 9월 23일
-- 개발 인원 : 5명
+- 개발 기간 : 2022년 9월 4일 ~ 2022년 9월 21일
+- 개발 인원 : 4명
 #### 프로젝트 소개
 #### 개발 목표
-- 사용자가 원하는 기준(재료, 분량, 요리 시간 등)으로 검색하면 레시피를 분류 및 추천하여 맞춤 레시피 정보를 제공 
-- 회원들이 냉장고에 있는 재료를 등록해서 관리할 수 있는 기능
-- 레시피 검색 및 북마크, 페이징 기능
-- 로그인, 로그아웃, 회원정보 수정 및 탈퇴 등 회원 정보 관련 기본 기능
-#### 개발 내용
-- <strong>레시피 제공</strong> 
-  - 메인 페이지에서는 3가지 레시피를 랜덤으로 추천
-  - 레시피 게시판 페이지에서는 카테고리 형식으로 레시피 분류 기준을 보여주거나 상세 검색창을 구현해 기준을 입력 받음   
-  - 기준은 유형(한식, 양식 등), 분류(부침, 찜, 조림 등), 분량, 조리 시간, 재료, 난이도를 활용   
-  - 데이터는 농림축산식품 사이트의 Open API를 활용   
-- <strong>검색</strong>
-  - 레시피 또는 재료 이름을 검색할 수 있음
-  
-- <strong>냉장고 관리</strong>    
-   - 회원이 냉장고에 있는 재료를 입력해 리스트에 등록할 수 있음   
-   - 재료를 사용하거나 버린 재료의 리스트를 수정 및 삭제를 할 수 있음
+- ㅇ
+- 
+- 
+- 
+#### 개발 내용   
+- <strong>메인 달력</strong> 
+   - 모든 IT 자격증의 일정을 달력에 시각화
+   - 달력의 표시선을 클릭하면 자격증 상세 페이지로 이동
    
-- <strong>즐겨찾기</strong>
-  - 저장하고 싶은 레시피가 있다면 게시글에 있는 별 버튼을 클릭시 마이페이지의 즐겨찾기에 저장됨
-  - 즐겨찾기에서 빼고 싶다면 별 버튼을 다시 클릭해야 함
-- <strong>마이페이지</strong>
-  - 회원정보(비밀번호, 전화번호만)를 수정하거나 회원 탈퇴가 가능함
-  - 즐겨찾기 및 냉장고 관리 
-- 사용한 데이터(출처 : 농림축산식품 공공데이터 포털)
-  - 레시피 기본 정보
-  - 레시피 과정 정보
-  - 레시피 재료 정보
+- <strong>자격증 상세 정보</strong> 
+  - 자격증 상세 페이지에는 응시료, 일정 등 자격증의 정보 표시
+  - 사이트 링크 클릭 시 해당 자격증 사이트로 이동   
+  - 로그인 후에는 즐겨찾기 버튼과 댓글 기능 추가
+
+  - <strong>자격증 즐겨찾기</strong>
+    - 달력에 일정을 표시하고 싶은 자격증이 있다면 게시글에 있는 별 버튼 클릭하면 My 달력에 일정이 표시
+    - 별을 다시 클릭하면 즐겨찾기에서 삭제
+
+  - <strong>댓글</strong>    
+     - 해당 자격증에 대한 댓글을 달고 싶다면 댓글 입력
+     - 삭제 버튼을 클릭하면 댓글 삭제
+  
+- <strong>My 달력</strong>    
+   -  로그인 후 My 달력 메뉴가 생성되어 사용자가 즐겨찾기 한 자격증의 일정이 My 달력에 표시
+   - 달력의 표시선을 클릭하면 자격증 상세 페이지로 이동
+   
+- <strong>D-DAY</strong>
+  - 즐겨찾기 한 자격증 중 가장 가까운 시험 일정을 표시
+   
+- <strong>취득 자격증</strong>
+  - 카테고리 별로 분류 된 자격증 중 하나를 선택하면 취득 자격증 항목이 추가되어 표시
+  - 클릿하면 자격증 상세 페이지로 이동
+   
+- <strong>추천 자격증</strong>
+  - 사용자가 가장 많이 즐겨찾기 한 자격증을 표시
+  - 클릭하면 자격증 상세 페이지로 이동 
+  
+- <strong>뉴스</strong>
+  - IT 관련 기사 요약 표시
+  - 뉴스를 클릭하면 해당 기사 페이지로 이동 
+  
+- <strong>마이 페이지</strong>
+  - 회원정보 수정
+  
+- 사용한 데이터(출처 : Q넷, kpc자격, )
+  - 자격증 기본 정보
+  - 자격증 시험 접수/응시 일정 정보
+  
 - 산출문서   
   - 프로젝트 기획서(브레인스토밍, 아이디어 기획서)
   - 요구사항 정의서
@@ -81,15 +102,17 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 - DB   
-![Oracle](https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-F80000?style=for-the-badge&logo=mysql&logoColor=white)
+<!--
 - Framworks   
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)-->
 - IDEs   
 ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
 ---
 ## 2. ER Diagram
-![image](https://user-images.githubusercontent.com/89984853/198649694-9e975d06-8599-4fbc-8626-c9435d02f490.png)
+![image](https://lh3.googleusercontent.com/keep-bbsk/AP6BvTRGGq68zUvJDhYU3hXv_XN-zMT-82UU8-3Zt4vBoD7_SuZljECwRAkgeJxDGDNeqqzL-pw4MaIHzQPVfkeG-g55fCDx3kdRG6teCgIRgtPwTD4H=s512)
 ---
+<!--
 ## 3. 흐름도 및 메뉴 구성도
 - 서비스 흐름도   
 ![image](https://user-images.githubusercontent.com/89984853/198645290-2fe5f29b-7eba-4f67-81bb-72be47fb57eb.png)   
@@ -136,10 +159,10 @@
 ## 6. 팀원 소개
 |  이름  | Github 주소 |
 | :----: | :-----------: |
-| 송영지 | [Github](https://github.com/icecandywell) |
-| 김도연 | [Github](https://github.com/kdn00) |
-| 김기범 | [Github](https://github.com/colaage23) |
-| 김동현 | [Github](https://github.com/JamesKimberly) |
-| 강태준 | [Github](https://github.com/xowns123)  |
+| 한재정 | [Github](https://github.com/hanjaejeong) |
+| 강혜지 | [Github](https://github.com/kkangji99) |
+| 이준헌 | [Github](https://github.com/haa89) |
+| 서효승 | [Github](https://github.com/tjgytmd97) |
 ---
+
 -->
